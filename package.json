@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fs": "nodemon ./fs/index",
+    "http": "nodemon ./http/index",
+    "path": "nodemon ./path/index",
+    "api1": "nodemon ./rest-api-01/backend/index",
+    "api2": "nodemon ./rest-api-02/index",
+    "api3": "nodemon ./rest-api-03/backend/index",
+    "testes": "nodemon ./testes/insert-here-seu-arquivo-bro",
+    "url": "nodemon ./url/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
