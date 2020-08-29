@@ -6,7 +6,7 @@ module.exports = {
           return res.json(pessoas);
      },
      async show(req, res) {
-          const pessoas = await Pessoa.findOne(req.params.id);
+          const pessoas = await Pessoa.findById(req.params.id);
           return res.json(pessoas);
      },
      async store(req, res, next) {
